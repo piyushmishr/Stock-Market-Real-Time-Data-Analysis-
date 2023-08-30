@@ -5,24 +5,8 @@
 In this project, we will be embarking on an end-to-end data engineering journey to analyze real-time stock market data. To achieve this, we will leverage various cutting-edge technologies, including Python, Amazon Web Services (AWS), Apache Kafka, Glue, Athena, and SQL.
 
 ### Architecture
+![Architecture](https://github.com/piyushmishr/Stock-Market-Real-Time-Data-Analysis-/assets/81643238/60fced19-7da8-4bc1-a36f-4492d175e096)
 
-Our project's architecture is designed to seamlessly process and analyze real-time stock market data. Here's an overview of the key components:
-
-1. **Python:** We will use Python as our primary programming language to develop data processing scripts and connect with different AWS services.
-
-2. **Amazon Web Services (AWS):** AWS offers a robust set of tools for cloud-based data processing and analysis. We'll utilize several AWS services to build our architecture.
-
-3. **S3 (Simple Storage Service):** S3 will serve as our data lake, storing raw and processed stock market data. It provides scalable and secure storage for our data.
-
-4. **Athena:** Athena is an interactive query service that allows us to analyze data stored in S3 using standard SQL queries. We can derive valuable insights from the data without the need for complex ETL processes.
-
-5. **Glue Crawler:** Glue Crawler automates the process of discovering and cataloging data stored in various sources, including S3. It will help us maintain an up-to-date data catalog.
-
-6. **Glue Catalog:** The Glue Catalog provides a central metadata repository for our data assets. It enhances data discoverability and simplifies data management.
-
-7. **EC2 (Elastic Compute Cloud):** We will use EC2 instances to run processes that require more computational resources or specific software installations.
-
-8. **Apache Kafka:** Kafka is a distributed streaming platform that enables real-time data processing and analysis. We will use Kafka to ingest and process the real-time stock market data streams.
 
 ### Technology Used
 
